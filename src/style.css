@@ -1,0 +1,147 @@
+#Svg {
+    fill: #ffffff;
+    height: 32px;
+    width: 32px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#Svg:hover{
+    fill: #A8E04E;
+}
+
+#Svg:active{
+    fill: #65862F;
+}
+
+.zs{
+    z-index: 4;
+    width: 218px;
+    height: 54px;
+    position: relative;
+    bottom: 54px;
+    pointer-events: none;
+}
+
+.block{
+    width: 218px;
+    height: 54px;
+}
+
+#Android{
+    position: relative;
+    transition: .2s;
+    cursor: pointer;
+    stroke: #A8E04E;
+    fill: #1a1e1f;
+}
+
+#Android:hover{
+    fill: #A8E04E;
+    opacity: 1;
+  }
+
+#Android:active{
+    fill: #65862F;
+    stroke: #65862F;
+}
+
+.playIcon{
+    margin: 0;
+    width: 33px;
+    height: 35px;
+    position: relative;
+    bottom: 45px;
+    left: 14px;
+    pointer-events: none;
+}
+
+.downloadPlayButton{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    bottom: 80px;
+    left: 60px;
+    pointer-events: none;
+}
+
+.playText{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    bottom: 85px;
+    left: 60px;
+    pointer-events: none;
+}
+
+.Apple{
+    position: relative;
+    transition: .2s;
+    cursor: pointer;
+    stroke: #A8E04E;
+    fill: #1a1e1f;
+}
+
+.Apple:hover{
+    fill: #A8E04E;
+    opacity: 1;
+  }
+
+.Apple:active{
+    fill: #65862F;
+    stroke: #65862F;
+}
+
+.appIcon{
+    margin: 0;
+    width: 33px;
+    height: 35px;
+    position: relative;
+    bottom: 45px;
+    left: 55px;
+    pointer-events: none; 
+}
+
+.appText{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    bottom: 85px;
+    left: 100px;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.downloadAppButton{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    pointer-events: none;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin-right: 7px;
+    background-color: #5B5B5B;
+}
+
+.it:hover .circle{
+    background: radial-gradient(126.36% 109.4% at 66.28% -12.1%, #5D9700 0%, #A8E04E 100%);
+}
+
+.MenuList{
+    box-shadow: 0px 0px 20px rgba(87, 31, 177, 0.3);
+    width: 50px;
+}
